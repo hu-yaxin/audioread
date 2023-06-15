@@ -27,7 +27,7 @@ from io import DEFAULT_BUFFER_SIZE
 from .exceptions import DecodeError
 from .base import AudioFile
 
-COMMANDS = ('ffmpeg', 'avconv')
+COMMANDS = ('/home/grady/.conda/envs/py39/bin/ffmpeg', 'avconv')
 
 if sys.platform == "win32":
     PROC_FLAGS = 0x08000000
